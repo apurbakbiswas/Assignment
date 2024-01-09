@@ -121,6 +121,7 @@ section{
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+    
 }
 span{
     color: #F00;
@@ -153,12 +154,14 @@ span{
 }
 .first-text-part{
     width 30px;
+    margin-right: -200px;
 }
 .first-text-part h3{
     color: #F00;
     text-align: left;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
 
 }
 .first-text-part h1{
@@ -167,12 +170,14 @@ span{
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    margin-bottom: 22px;
 }
 .first-text-part p{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin-right: 540px;
 }
 .middle-part{
     width: 391px;
@@ -182,11 +187,13 @@ span{
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-left: -285px;
 }
 .new-year-part h1{
     color: #F00;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 .new-year-part p{
     color: rgba(7, 2, 17, 0.60);
@@ -194,6 +201,7 @@ span{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 43px;
 }
 .new-year-part img{
     width: 140px;
@@ -208,6 +216,7 @@ span{
     font-weight: 500;
     justify-content: space-around;
     text-align: center;
+    margin-bottom: 16px;
 }
 .holiday-text span {
     color: #F00;
@@ -223,6 +232,8 @@ span{
     font-weight: 900;
     justify-content: space-around;
     text-align: center;
+    margin-bottom: 28px;
+
 }
 .holiday-text p {
     color: rgba(7, 2, 17, 0.60);
@@ -230,7 +241,7 @@ span{
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    margin: 10px;
+    margin-bottom: 66px;
 }
 .girl{
     display: flex;
@@ -274,19 +285,22 @@ span{
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
     }
 .portfolio-text h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    text-transform: capitalize; 
+    text-transform: capitalize;
+    margin-bottom: 22px;
 }
 .portfolio-text p{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 48px;
 }
 .portfolio-image img {
     margin: 5px;
@@ -323,6 +337,7 @@ span{
     line-height: 32px;
     padding-left: 212px;
     padding-right: 212px;
+    margin-bottom: 48px;
 }
 /* .subscribe-search{
     border-radius: 50px;
@@ -375,6 +390,12 @@ span{
     font-size: 20px;
     font-weight: 600;
     border-radius: 0px 40px 40px 0px;
+}
+.subscribe-search input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 /* Footer Part  */
 .continer-foot{
